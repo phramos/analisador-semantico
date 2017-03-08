@@ -16,18 +16,8 @@ public class Main {
 
     public static void main (String... args) throws IOException {
 
-        String fileName = "arquivos/teste_simples.c";
-//        String fileName = "arquivos/teste_correto.c";
-//        String fileName = "arquivos/teste_errado_colchete_main.c";
-//        String fileName = "arquivos/teste_errado_parentese_if.c";
-//        String fileName = "arquivos/teste_errado_ponto_e_virgula.c";
-//        String fileName = "arquivos/teste_errado_tipo_sem_identificador1.c";
-//        String fileName = "arquivos/teste_errado_tipo_sem_identificador2.c";
-//        String fileName = "arquivos/teste_errado_identificador_identificador.c";
-//        String fileName = "arquivos/teste_errado_argumentos1.c";
-//        String fileName = "arquivos/teste_errado_argumentos2.c";
-//        String fileName = "arquivos/teste_errado_struct1.c";
-//        String fileName = "arquivos/teste_errado_struct2.c";
+//        String fileName = "arquivos/teste_erros_semanticos.c";
+        String fileName = "arquivos/teste_3ac.c";
 
         File file = new File(fileName);
 
@@ -60,13 +50,6 @@ public class Main {
 
         treeWalker.walk(listener, compilationUnitContext);
 
-//        System.out.println("Modificado -->" +listener.tokenStreamRewriter.getText());
-
-//        ThreeCodeAddresHelper.process("2*66.0+b-c*5/12.0+belu");
-//        ThreeCodeAddresHelper.process("66.0*b-c*5/12+belu");
-
-
-//        ThreeCodeAddresHelper.process("15");
 
     }
 

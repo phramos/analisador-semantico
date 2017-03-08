@@ -1,3 +1,4 @@
+import enums.ItemIfElse;
 import enums.LiteralType;
 import enums.OperatorType;
 import helper.ThreeCodeAddresHelper;
@@ -12,7 +13,8 @@ import java.util.Stack;
  */
 public class CustomListener extends CMinusBaseListener{
 
-    private final Boolean DEBUG = true;
+    private final Boolean DEBUG = false;
+    private final Boolean SHOW_3AC = true;
     private CMinusParser parser;
     private ArrayList<ItemTabelaSimbolo> tabelaSimbolos;
 
@@ -21,10 +23,14 @@ public class CustomListener extends CMinusBaseListener{
     Vocabulary vocabulary = CMinusLexer.VOCABULARY;
     private String escopoAtual;
 
+    private Integer labelCount = 0;
+    private Stack<ItemIfElse> labels;
+
     public CustomListener(CMinusParser parser) {
         this.parser = parser;
         tabelaSimbolos = new ArrayList<ItemTabelaSimbolo>();
         escopos = new Stack<String>();
+        labels = new Stack<ItemIfElse>();
         //TODO: implementar verficacao de escopo global
         escopos.push("global");
         escopoAtual = "global";
@@ -129,9 +135,13 @@ public class CustomListener extends CMinusBaseListener{
         Token tokenA = ctx.expression(0).getStop();
         Token tokenB = ctx.expression(1).getStart();
 //        verificarCompatibilidade(tokenA, tokenB);
+
+        //TODO: colocar 3DC para declaracao de variavel ja inicializada
         String[] tacExpression = ThreeCodeAddresHelper.process(ctx.expression(1).getText(), tokenA.getText());
-        ThreeCodeAddresHelper.print3ac(tacExpression);
-        ThreeCodeAddresHelper.printQuadrupla(tacExpression);
+        if (SHOW_3AC) ThreeCodeAddresHelper.print3ac(tacExpression);
+
+        //TODO: ver como exibir a quadrupla
+//        ThreeCodeAddresHelper.printQuadrupla(tacExpression);
         verificarCompatibilidade(tokenA, tokenB, OperatorType.Attribuition);
     }
 
@@ -153,6 +163,53 @@ public class CustomListener extends CMinusBaseListener{
         Token tokenB = ctx.expression(1).getStart();
 //        verificarCompatibilidade(tokenA, tokenB);
         verificarCompatibilidade(tokenA, tokenB, OperatorType.MultDiv);
+    }
+
+    @Override
+    public void enterIfStatementLabel(CMinusParser.IfStatementLabelContext ctx) {
+        String labelIf = "L"+labelCount+":";
+        String labelElse = "L"+labelCount+":";
+
+        if (DEBUG) System.out.println("DEBUG: Inicio if " + labelIf);
+
+        if (SHOW_3AC) System.out.println("ifZ " + ctx.parExpression().getText() + " goto "+ labelElse);
+
+        //verifica se tera um else para decidir onde colocar o label
+        Boolean observeElse = false;
+        if (ctx.elseStatement() != null) {
+            observeElse = true;
+        }
+
+        ItemIfElse itemIfElse = new ItemIfElse(labelIf, labelElse, observeElse);
+        labels.push(itemIfElse);
+        labelCount++;
+    }
+
+    @Override
+    public void enterElseStatement(CMinusParser.ElseStatementContext ctx) {
+        ItemIfElse itemIfElse = labels.peek();
+        if (itemIfElse.getObserveElse()) {
+            if (SHOW_3AC)  System.out.println(itemIfElse.getLabelIf());
+        }
+    }
+
+    @Override
+    public void exitIfStatementLabel(CMinusParser.IfStatementLabelContext ctx) {
+        ItemIfElse itemIfElse = labels.pop();
+        if (!itemIfElse.getObserveElse()) {
+            if (SHOW_3AC) System.out.println(itemIfElse.getLabelIf());
+        }
+        if (DEBUG) System.out.println("DEBUG: Fim if " + itemIfElse.getLabelIf());
+    }
+
+    @Override
+    public void enterWhileStatementLabel(CMinusParser.WhileStatementLabelContext ctx) {
+        super.enterWhileStatementLabel(ctx);
+    }
+
+    @Override
+    public void exitWhileStatementLabel(CMinusParser.WhileStatementLabelContext ctx) {
+        super.exitWhileStatementLabel(ctx);
     }
 
     private ItemTabelaSimbolo buscarNaTabelaDeSimbolos(String identificador) {

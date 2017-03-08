@@ -88,15 +88,8 @@ void errochar1() {
     int b;
 }*/
 
-
 /*void errodeclaracaoatribuicao2(int b) {
     char a = b;
 }*/
 
-void teste3acexpressao1(int b) {
-    int a;
-    teste1 = 2+50*5;
-    teste1 = 2;
-   /* teste1 = 1*2/6+5;
-    teste1 = 2;*/
-}
+void

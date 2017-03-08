@@ -118,13 +118,16 @@ localVariableDeclaration
 //statement pode ser um novo bloco, um statement de if, de while, retorno, ;, ou uma statmentExpression em si
 statement
     :   block #blockStatementLabel
-    |   'if' parExpression statement ('else' statement)? #ifStatementLabel
+    |   'if' parExpression statement (elseStatement)? #ifStatementLabel
     |   'while' parExpression statement #whileStatementLabel
     |   'return' expression? ';' #returnStatementLabel
     |   ';' #pvStatementLabel
     |   statementExpression ';' #statementExpressionLabel
     ;
 
+elseStatement
+    : 'else' statement
+    ;
 
 /*EXPRESSOES*/
 

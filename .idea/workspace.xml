@@ -2,10 +2,76 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b06741f0-dbcd-4048-b2bc-fae5ce195346" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arquivos/teste_simples.c" afterPath="$PROJECT_DIR$/arquivos/teste_simples.c" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_correto.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_argumentos1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_argumentos2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_colchete_main.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_identificador_identificador.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_parentese_if.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_ponto_e_virgula.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_struct1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_struct2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador1.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador2.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_erros.c" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arquivos/teste_simples.c" afterPath="$PROJECT_DIR$/arquivos/teste_erros_semanticos.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseVisitor.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$AttrExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$AttrExpressionLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$CompilationUnitContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$CompilationUnitContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionListContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionListContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterDeclaratorIdContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterDeclaratorIdContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterListContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterListContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParametersContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParametersContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$IfStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$IfStatementLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LiteralContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LiteralContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationStatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationStatementContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodBodyContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodBodyContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodDeclarationContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MultDivExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MultDivExpressionLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ParExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ParExpressionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimExpressionLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimaryContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimaryContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimitiveTypeContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimitiveTypeContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PvStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PvStatementLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelEqDiffExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelEqDiffExpressionLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelExpressionLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ReturnStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ReturnStatementLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationStatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationStatementContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVariableInitializerContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVariableInitializerContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVaribleDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVaribleDeclarationContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$SumMinusExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$SumMinusExpressionLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$TypeTypeContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$TypeTypeContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorIdContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorIdContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorsContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorsContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableInitializerContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableInitializerContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$WhileStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$WhileStatementLabelContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusVisitor.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/Main.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusBaseListener.java" afterPath="$PROJECT_DIR$/gen/CMinusBaseListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusBaseVisitor.java" afterPath="$PROJECT_DIR$/gen/CMinusBaseVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusListener.java" afterPath="$PROJECT_DIR$/gen/CMinusListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusParser.java" afterPath="$PROJECT_DIR$/gen/CMinusParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusVisitor.java" afterPath="$PROJECT_DIR$/gen/CMinusVisitor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gramatica/CMinus.g4" afterPath="$PROJECT_DIR$/gramatica/CMinus.g4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CustomListener.java" afterPath="$PROJECT_DIR$/src/CustomListener.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java" afterPath="$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java" />
     </list>
     <ignored path="TP1_AnaliseSintatica.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,41 +106,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="133" column="45" selection-start-line="133" selection-start-column="45" selection-end-line="133" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreeCodeAddresHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+              <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="ItemWhile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/enums/ItemWhile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teste_simples.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arquivos/teste_simples.c">
+      <file leaf-file-name="ItemIfElse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/enums/ItemIfElse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+            <state relative-caret-position="163">
+              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+              <folding>
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teste_3ac.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arquivos/teste_3ac.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="54" column="2" selection-start-line="54" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemTabelaSimbolo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ItemTabelaSimbolo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMinus.g4" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gramatica/CMinus.g4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="120" column="51" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -100,8 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/src/br/ufla/fauno/antlr/helper/listener/Token.java" />
-        <option value="$PROJECT_DIR$/src/helper/listener/ThrowingErrorListener.java" />
         <option value="$PROJECT_DIR$/src/Main2.java" />
         <option value="$PROJECT_DIR$/src/helper/listener/Token.java" />
         <option value="$PROJECT_DIR$/src/helper/listener/TokenErro.java" />
@@ -142,11 +239,17 @@
         <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java" />
         <option value="$PROJECT_DIR$/src/ItemTabelaSimbolo.java" />
         <option value="$PROJECT_DIR$/src/enums/OperatorType.java" />
-        <option value="$PROJECT_DIR$/gramatica/CMinus.g4" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/arquivos/teste_simples.c" />
         <option value="$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java" />
+        <option value="$PROJECT_DIR$/arquivos/teste_simples.c" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/arquivos/teste_erros_semanticos.c" />
+        <option value="$PROJECT_DIR$/src/enums/ItemIf.java" />
+        <option value="$PROJECT_DIR$/gramatica/CMinus.g4" />
+        <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/util/Stack.java" />
+        <option value="$PROJECT_DIR$/src/enums/ItemIfElse.java" />
+        <option value="$PROJECT_DIR$/arquivos/teste_3ac.c" />
         <option value="$PROJECT_DIR$/src/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/enums/ItemWhile.java" />
       </list>
     </option>
   </component>
@@ -164,7 +267,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1366" />
+    <option name="x" value="-4" />
+    <option name="width" value="1374" />
     <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -240,7 +344,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helper" />
+              <option name="myItemId" value="enums" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arquivos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,7 +379,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="t&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_simples.c&#10;main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;C&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Cmi&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Listen&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/helper/listener/ThrowingErrorListener.java&#10;orre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_correto.c&#10;corre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_correto.c&#10;Mai&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;g4&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;Base&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gen/CMinusBaseListener.java&#10;arg&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;teste_errado_colchete_main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;argumentos&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;g&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;ma&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;teste&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;if&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_expressao_if.c&#10;errad&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado.c&#10;lexe&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Main&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/Main.java&#10;Ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;tokenIde&#9;PSI&#9;JAVA://helper.TokenIdentificador&#10;Token&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/TokenErro.java&#10;Lexer&#9;FILE&#9;jar:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/Lexer.class&#10;ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Ster&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;A&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Liste&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/listener/ThrowingErrorListener.java&#10;ex&#9;PSI&#9;JAVA://AnalisadorLexico&#10;al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/arquivos/alguma" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_3ac.c&#10;c&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;ma&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;t&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_simples.c&#10;main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;C&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Cmi&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Listen&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/helper/listener/ThrowingErrorListener.java&#10;orre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_correto.c&#10;corre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_correto.c&#10;Mai&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;g4&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;Base&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gen/CMinusBaseListener.java&#10;arg&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;teste_errado_colchete_main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;argumentos&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;g&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;teste&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;if&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_expressao_if.c&#10;errad&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado.c&#10;lexe&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Main&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/Main.java&#10;Ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;tokenIde&#9;PSI&#9;JAVA://helper.TokenIdentificador&#10;Token&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/TokenErro.java&#10;Lexer&#9;FILE&#9;jar:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/Lexer.class&#10;ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Ster&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;A&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Liste&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/listener/ThrowingErrorListener.java&#10;ex&#9;PSI&#9;JAVA://AnalisadorLexico&#10;al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/arquivos/alguma" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -276,10 +394,10 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/arquivos" />
       <recent name="$PROJECT_DIR$/gramatica" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -771,32 +889,24 @@
       <workItem from="1488753813493" duration="31431000" />
       <workItem from="1488835341965" duration="1592000" />
       <workItem from="1488904510789" duration="603000" />
-      <workItem from="1488957475263" duration="26507000" />
+      <workItem from="1488957475263" duration="33225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160993000" />
+    <option name="totallyTimeSpent" value="167711000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="742" extended-state="4" />
+    <frame x="-4" y="0" width="1374" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Tool Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24143556" sideWeight="0.7101025" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16981132" sideWeight="0.3762811" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12438625" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70579267" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053833604" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25304878" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24693252" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33612806" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -804,15 +914,23 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Notes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49099836" sideWeight="0.49267936" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28641573" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70579267" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053833604" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25151515" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789558" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32626426" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -843,7 +961,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
-          <line>208</line>
+          <line>265</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
@@ -853,11 +971,17 @@
           <properties />
           <option name="timeStamp" value="99" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="100" />
+      <option name="time" value="101" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -871,77 +995,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://MODULES/mdl-TP1_AnaliseSintatica">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-TP1_AnaliseSintatica</OriginalElement>
-          <nodes>
-            <node x="" y="">mdl-TP1_AnaliseSintatica</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="104.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main2.java" />
-    <entry file="uml://JAVA/Main">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Main</OriginalElement>
-          <nodes>
-            <node x="" y="">Main</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="31.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">oracle</node>
-            <node x="" y="">org</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">java</node>
-            <node x="" y="">helper</node>
-            <node x="" y="">AnalisadorLexico</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">javafx</node>
-            <node x="" y="">Main</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="213.0" y="1446.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/helper">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1258,20 +1311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/enums/LiteralType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ItemTabelaSimbolo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gen/CMinusParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1288,42 +1327,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gramatica/CMinus.g4">
+    <entry file="file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/teste_erros_semanticos.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/LiteralType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="65" column="62" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="62" />
+        <state relative-caret-position="82">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_simples.c">
+    <entry file="file://$PROJECT_DIR$/src/ItemTabelaSimbolo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="98" column="14" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        <state relative-caret-position="-743">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gramatica/CMinus.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="120" column="51" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/teste_3ac.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="54" column="2" selection-start-line="54" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/ItemIfElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="133" column="45" selection-start-line="133" selection-start-column="45" selection-end-line="133" selection-end-column="45" />
+        <state relative-caret-position="216">
+          <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/ItemWhile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
