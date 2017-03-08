@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b06741f0-dbcd-4048-b2bc-fae5ce195346" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseVisitor.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelEqDiffExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelEqDiffExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$SumMinusExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$SumMinusExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusVisitor.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/enums/OperatorType.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/enums/OperatorType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arquivos/teste_simples.c" afterPath="$PROJECT_DIR$/arquivos/teste_simples.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusBaseListener.java" afterPath="$PROJECT_DIR$/gen/CMinusBaseListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusBaseVisitor.java" afterPath="$PROJECT_DIR$/gen/CMinusBaseVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusListener.java" afterPath="$PROJECT_DIR$/gen/CMinusListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusParser.java" afterPath="$PROJECT_DIR$/gen/CMinusParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusVisitor.java" afterPath="$PROJECT_DIR$/gen/CMinusVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gramatica/CMinus.g4" afterPath="$PROJECT_DIR$/gramatica/CMinus.g4" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CustomListener.java" afterPath="$PROJECT_DIR$/src/CustomListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/enums/OperatorType.java" afterPath="$PROJECT_DIR$/src/enums/OperatorType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="TP1_AnaliseSintatica.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,14 +41,34 @@
       <file leaf-file-name="CustomListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="92" column="82" selection-start-line="92" selection-start-column="82" selection-end-line="92" selection-end-column="82" />
+            <state relative-caret-position="101">
+              <caret line="227" column="59" selection-start-line="227" selection-start-column="54" selection-end-line="227" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teste_simples.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThreeCodeAddresHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teste_simples.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/arquivos/teste_simples.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -78,8 +81,8 @@
       <file leaf-file-name="CMinus.g4" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gramatica/CMinus.g4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="-488">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -141,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/listeners/CustomListener.java" />
         <option value="$PROJECT_DIR$/src/helper/listener/CustomListener.java" />
         <option value="$PROJECT_DIR$/arquivos/teste_correto.c" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/exceptions/IdentifierException.java" />
         <option value="$PROJECT_DIR$/src/enums/typeEnum.java" />
         <option value="$PROJECT_DIR$/src/enums/LiteralType.java" />
@@ -149,8 +151,10 @@
         <option value="$PROJECT_DIR$/src/ItemTabelaSimbolo.java" />
         <option value="$PROJECT_DIR$/src/enums/OperatorType.java" />
         <option value="$PROJECT_DIR$/gramatica/CMinus.g4" />
-        <option value="$PROJECT_DIR$/src/CustomListener.java" />
         <option value="$PROJECT_DIR$/arquivos/teste_simples.c" />
+        <option value="$PROJECT_DIR$/src/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -199,7 +203,56 @@
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
@@ -216,7 +269,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;C&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Cmi&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Listen&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/helper/listener/ThrowingErrorListener.java&#10;orre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_correto.c&#10;corre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_correto.c&#10;Mai&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;g4&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;Base&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gen/CMinusBaseListener.java&#10;arg&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;teste_errado_colchete_main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;argumentos&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;g&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;ma&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;teste&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;if&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_expressao_if.c&#10;errad&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado.c&#10;lexe&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Main&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/Main.java&#10;Ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;tokenIde&#9;PSI&#9;JAVA://helper.TokenIdentificador&#10;Token&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/TokenErro.java&#10;Lexer&#9;FILE&#9;jar:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/Lexer.class&#10;ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Ster&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;A&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Liste&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/listener/ThrowingErrorListener.java&#10;ex&#9;PSI&#9;JAVA://AnalisadorLexico&#10;al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/arquivos/alguma" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;C&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Cmi&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Listen&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/helper/listener/ThrowingErrorListener.java&#10;orre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_correto.c&#10;corre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_correto.c&#10;Mai&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;g4&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;Base&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gen/CMinusBaseListener.java&#10;arg&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;teste_errado_colchete_main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;argumentos&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;g&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;ma&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;teste&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;if&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_expressao_if.c&#10;errad&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado.c&#10;lexe&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Main&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/Main.java&#10;Ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;tokenIde&#9;PSI&#9;JAVA://helper.TokenIdentificador&#10;Token&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/TokenErro.java&#10;Lexer&#9;FILE&#9;jar:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/Lexer.class&#10;ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Ster&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;A&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Liste&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/listener/ThrowingErrorListener.java&#10;ex&#9;PSI&#9;JAVA://AnalisadorLexico&#10;al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/arquivos/alguma" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -726,12 +779,12 @@
       <workItem from="1488753813493" duration="31431000" />
       <workItem from="1488835341965" duration="1592000" />
       <workItem from="1488904510789" duration="603000" />
-      <workItem from="1488957475263" duration="10026000" />
+      <workItem from="1488957475263" duration="21890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144512000" />
+    <option name="totallyTimeSpent" value="156376000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="742" extended-state="4" />
@@ -745,20 +798,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16981132" sideWeight="0.3762811" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4140753" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3715221" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36006546" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70579267" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053833604" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19207317" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19207317" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24693252" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="ANTLR Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3927987" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20045732" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33612806" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Notes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3797054" sideWeight="0.49267936" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4680851" sideWeight="0.49267936" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -798,21 +851,39 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
-          <line>202</line>
+          <line>204</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
-          <line>90</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="72" />
+      <option name="time" value="87" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -826,7 +897,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gen/AnalisadorLexico.tokens" />
     <entry file="uml://MODULES/mdl-TP1_AnaliseSintatica">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1150,13 +1220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="48" column="53" selection-start-line="48" selection-start-column="53" selection-end-line="48" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/IdentifierException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1251,26 +1314,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
+    <entry file="file://$PROJECT_DIR$/arquivos/teste_simples.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="92" column="82" selection-start-line="92" selection-start-column="82" selection-end-line="92" selection-end-column="82" />
+        <state relative-caret-position="108">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gramatica/CMinus.g4">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="-488">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_simples.c">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="227" column="59" selection-start-line="227" selection-start-column="54" selection-end-line="227" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
           <folding />
         </state>
       </provider>

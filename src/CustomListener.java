@@ -83,8 +83,10 @@ public class CustomListener extends CMinusBaseListener{
                     ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getText(),
                     escopoAtual);
             tabelaSimbolos.add(item);
+
             if (DEBUG) System.out.println("DEBUG: Item adicionado:" + item);
 
+            //Verificacao de inicializacao logo apos declaracao de variavel
             if (ctx.variableDeclarators().variableDeclarator().variableInitializer() != null ) {
                 Token tokenA = ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getStart();
                 Token tokenB = ctx.variableDeclarators().variableDeclarator().variableInitializer().getStart();

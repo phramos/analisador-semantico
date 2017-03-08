@@ -1,4 +1,5 @@
 import helper.LexerOnSteroids;
+import helper.ThreeCodeAddresHelper;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
@@ -61,7 +62,9 @@ public class Main {
 
 //        System.out.println("Modificado -->" +listener.tokenStreamRewriter.getText());
 
-
+//        ThreeCodeAddresHelper.process("2*66.0+b-c*5/12.0+belu");
+//        ThreeCodeAddresHelper.process("66.0*b-c*5/12+belu");
+        ThreeCodeAddresHelper.process("15");
 
     }
 
