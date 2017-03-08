@@ -10,6 +10,7 @@ import java.util.Stack;
  */
 public class CustomListener extends CMinusBaseListener{
 
+    private final Boolean DEBUG = true;
     private CMinusParser parser;
     private ArrayList<ItemTabelaSimbolo> tabelaSimbolos;
 
@@ -32,14 +33,17 @@ public class CustomListener extends CMinusBaseListener{
     public void enterMethodDeclaration(CMinusParser.MethodDeclarationContext ctx) {
         escopoAtual = ctx.Identifier().getText();
         escopos.push(escopoAtual);
-        System.out.println("Entrando no escopo: "+ escopoAtual);
+        ItemTabelaSimbolo item = new ItemTabelaSimbolo("function", ctx.Identifier().getText(), escopoAtual);
+        tabelaSimbolos.add(item);
+        if (DEBUG) System.out.println("DEBUG: Item adicionado:" + item);
+        if (DEBUG) System.out.println("DEBUG: Entrando no escopo: "+ escopoAtual);
     }
 
     @Override
     public void exitMethodDeclaration(CMinusParser.MethodDeclarationContext ctx) {
-        System.out.println("Saindo do escopo: "+ escopos.pop());
+        if (DEBUG) System.out.println("DEBUG: Saindo do escopo: "+ escopos.pop());
         escopoAtual = escopos.pop();
-        System.out.println("Voltando para o escopo: "+ escopoAtual);
+        if (DEBUG) System.out.println("DEBUG: Voltando para o escopo: "+ escopoAtual);
         escopos.push(escopoAtual);
         escopoAtual = ctx.Identifier().getText();
     }
@@ -53,14 +57,15 @@ public class CustomListener extends CMinusBaseListener{
                     ctx.formalParameterDeclaratorId().getText(),
                     escopoAtual);
             tabelaSimbolos.add(item);
-            System.out.println("Item adicionado:" + item);
+            if (DEBUG)  System.out.println("DEBUG: Item adicionado:" + item);
         } else {
             //ERRO:
             String msg = "ERRO: "
                     + ctx.formalParameterDeclaratorId().getText()
-                    + " já declarado no escopo."
-                    + "L" + ctx.formalParameterDeclaratorId().getStart().getLine()
-                    + "C" + ctx.formalParameterDeclaratorId().getStart().getCharPositionInLine();
+                    + " já declarado no escopo "
+                    + escopoAtual
+                    +" em "
+                    + getTextPosition(ctx.formalParameterDeclaratorId().getStart());
             //TODO: Decidir se usar print msg ou throw exception
 //            throw new IdentifierException(msg);
             System.out.println(msg);
@@ -77,14 +82,16 @@ public class CustomListener extends CMinusBaseListener{
                     ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getText(),
                     escopoAtual);
             tabelaSimbolos.add(item);
-            System.out.println("Item adicionado:" + item);
+            if (DEBUG) System.out.println("DEBUG: Item adicionado:" + item);
         } else {
             //ERRO:
             String msg = "ERRO: "
                     + ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getText()
-                    + " já declarado no escopo."
-                    + "L" + ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getStart().getLine()
-                    + "C" + ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getStart().getCharPositionInLine();
+                    + " já declarado no escopo "
+                    + escopoAtual
+                    +" em "
+                    + getTextPosition(ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getStart());
+
             //TODO: Decidir se usar print msg ou throw exception
 //            throw new IdentifierException(msg);
             System.out.println(msg);
@@ -101,19 +108,31 @@ public class CustomListener extends CMinusBaseListener{
     //verifica os tipos nas atribuicoes a = x;
     @Override
     public void enterAttrExpressionLabel(CMinusParser.AttrExpressionLabelContext ctx) {
-        System.out.println("Expressao encontrada: " + ctx.getText());
-        CMinusParser.ExpressionContext expressionLeftContext = ctx.expression().get(0);
-        CMinusParser.ExpressionContext expressionRightContext = ctx.expression().get(1);
+        if (DEBUG) System.out.println("DEBUG: Atribuição encontrada: " + ctx.getText());
+//        CMinusParser.ExpressionContext expressionLeftContext = ctx.expression().get(0);
+//        CMinusParser.ExpressionContext expressionRightContext = ctx.expression().get(1);
+        Token tokenA = ctx.expression(0).getStop();
+        Token tokenB = ctx.expression(1).getStart();
+        verificarCompatibilidade(tokenA, tokenB);
 //        verificarCompatibilidade(expressionLeftContext, expressionRightContext);
-        verificarCompatibilidade(expressionLeftContext, expressionRightContext);
     }
 
     @Override
     public void enterSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx) {
-        System.out.println("Expressao de soma encontrada: " + ctx.getText());
-        CMinusParser.ExpressionContext expressionLeftContext = ctx.expression().get(0);
-        CMinusParser.ExpressionContext expressionRightContext = ctx.expression().get(1);
-        verificarCompatibilidade(expressionLeftContext, expressionRightContext);
+        if (DEBUG) System.out.println("DEBUG: Expressao de +- encontrada: " + ctx.getText());
+//        CMinusParser.ExpressionContext expressionLeftContext = ctx.expression().get(0);
+//        CMinusParser.ExpressionContext expressionRightContext = ctx.expression().get(1);
+        Token tokenA = ctx.expression(0).getStop();
+        Token tokenB = ctx.expression(1).getStart();
+        verificarCompatibilidade(tokenA, tokenB);
+    }
+
+    @Override
+    public void enterMultDivExpressionLabel(CMinusParser.MultDivExpressionLabelContext ctx) {
+        if (DEBUG) System.out.println("DEBUG: Expressao de */ encontrada: " + ctx.getText());
+        Token tokenA = ctx.expression(0).getStop();
+        Token tokenB = ctx.expression(1).getStart();
+        verificarCompatibilidade(tokenA, tokenB);
     }
 
     private ItemTabelaSimbolo buscarNaTabelaDeSimbolos(String identificador) {
@@ -187,6 +206,70 @@ public class CustomListener extends CMinusBaseListener{
                     +". Esperado " + expressionAType
                     + " mas foi encontrado " + expressionBType
                     + " em " + getTextPosition(expressionBCtx.getStart()));
+        }
+
+    }
+
+  //Acusa erro em compatibilidade de 2 identificadores. Ex. int = float
+    private void verificarCompatibilidade(Token tokenA,
+                                          Token tokenB) {
+        if (DEBUG) System.out.println("DEBUG: Tokens testados:" + tokenA.getText()+ " & " + tokenB.getText());
+        ItemTabelaSimbolo itemTsA = null;
+        ItemTabelaSimbolo itemTsB = null;
+
+        String expressionAType = null;
+        String expressionBType = null;
+
+        LiteralType literalTypeA = LiteralType.valueOf(vocabulary.getSymbolicName(tokenA.getType()));
+        LiteralType literalTypeB = LiteralType.valueOf(vocabulary.getSymbolicName(tokenB.getType()));
+//        LiteralType literalTypeB = LiteralType.valueOf(vocabulary.getSymbolicName(expressionBCtx.getStart().getType()));
+
+        //TODO: Tentar mdularizar isso
+        //Verifica se expressionACtx eh um identifier
+        if (literalTypeA == LiteralType.Identifier) {
+            ItemTabelaSimbolo itemTbA = buscarNaTabelaDeSimbolos(tokenA.getText());
+            //ExpressioA eh um identificador e nao esta na tabela de simbolos
+            if (itemTbA == null) {
+                System.out.println("ERRO: Identificador "
+                        +tokenA.getText()
+                        + " não declarado em "
+                        + getTextPosition(tokenB));
+
+            } else {
+                expressionAType = itemTbA.getTipo();
+            }
+
+        } else {
+            //Caso a expressionA seja um literal
+            expressionAType = literalTypeA.type();
+        }
+
+        //Verifica se expressionBCtx eh um identifier
+        if (literalTypeB == LiteralType.Identifier) {
+            ItemTabelaSimbolo itemTbB = buscarNaTabelaDeSimbolos(tokenB.getText());
+            //ExpressioB eh um identificador e nao esta na tabela de simbolos
+            if (itemTbB == null) {
+                System.out.println("ERRO: Identificador "
+                        + tokenB.getText()
+                        + " não declarado em "
+                        + getTextPosition(tokenB));
+
+            } else {
+                expressionBType = itemTbB.getTipo();
+            }
+
+        }  else {
+            //Caso a expressionA seja um literal
+            expressionBType = literalTypeB.type();
+        }
+
+        //TODO: verificar se essa expressao esta correta
+        if (expressionAType!= null && expressionBType!= null && !expressionAType.equals(expressionBType)) {
+            System.out.println("ERRO: Tipo encontrado em " + tokenB.getText()
+                    + " não compativel com " +tokenA.getText()
+                    +". Esperado " + expressionAType
+                    + " mas foi encontrado " + expressionBType
+                    + " em " + getTextPosition(tokenB));
         }
 
     }

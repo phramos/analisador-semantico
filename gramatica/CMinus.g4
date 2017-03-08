@@ -23,7 +23,7 @@ variableDeclarator
     :   variableDeclaratorId ('['IntegerLiteral']')* ('=' variableInitializer)?
     ;
 
-//Identificador
+//Identificadorfun
 variableDeclaratorId
     :   Identifier
     ;

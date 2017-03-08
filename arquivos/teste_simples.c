@@ -1,17 +1,60 @@
-/*int soma(int varsoma1, int varsoma2) {
-    int c = varsoma1 + varsoma2;
-    return c;
+
+/*
+void errodeclaracaoduplicada1(int b, int b){
+
+}
+*/
+
+/*
+void errodeclaracaoduplicada2(){
+    int a;
+    int a;
+}
+*/
+
+/*
+void errodeclaracaoduplicada3(int a){
+    int a;
+}
+*/
+
+/*
+void erroatribuicao1(){
+    int a;
+    a = 6.0;
+}
+*/
+
+/*void erroatribuicao2(float a){
+    int b;
+    b = a;
 }*/
 
-int main(char args[]) {
-    float a;
+/*
+void erroatribuicao3(){
+    int a;
     float b;
-    a = b + 666.0 + a + 1.0;
-    /*a = b;*/
+    a = b;
+}*/
 
-    if (a < b ){
-    /*a = c gera um erro de compatibilidade*/
-        /*a = s;*/
-    }
+/*void erroexpressao1() {
+    int a;
+    float b;
+    a = a + b;
+}*/
+
+void erroexpressao2() {
+    int a;
+    int b;
+    int erroexpressao2;
+    a = a + 1.0 + b;
 }
 
+/*void erroescopo1a(){
+    int a;
+}
+
+void erroescopo1b(){
+    int b;
+    b = a;
+}*/
