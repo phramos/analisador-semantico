@@ -1,20 +1,18 @@
-package enums;
-
 /**
  * Created by fauno on 05/03/17.
  */
-public class ItemWhile {
+public class ItemIfElse {
     private String labelIf;
     private String labelElse;
     private Boolean observeElse;
 
-    public ItemWhile(String labelIf, String labelElse, Boolean observeElse) {
+    public ItemIfElse(String labelIf, String labelElse, Boolean observeElse) {
         this.labelIf = labelIf;
         this.labelElse = labelElse;
         this.observeElse = observeElse;
     }
 
-    public ItemWhile(String labelIf, String labelElse) {
+    public ItemIfElse(String labelIf, String labelElse) {
         this.labelIf = labelIf;
         this.labelElse = labelElse;
     }
@@ -42,4 +40,5 @@ public class ItemWhile {
     public void setObserveElse(Boolean observeElse) {
         this.observeElse = observeElse;
     }
+
 }

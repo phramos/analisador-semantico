@@ -2,76 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b06741f0-dbcd-4048-b2bc-fae5ce195346" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_correto.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_argumentos1.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_argumentos2.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_colchete_main.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_identificador_identificador.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_parentese_if.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_ponto_e_virgula.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_struct1.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_struct2.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador1.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador2.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/arquivos/teste_erros.c" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arquivos/teste_simples.c" afterPath="$PROJECT_DIR$/arquivos/teste_erros_semanticos.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseVisitor.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusBaseVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$AttrExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$AttrExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$BlockStatementLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$CompilationUnitContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$CompilationUnitContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionListContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ExpressionListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterDeclaratorIdContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterDeclaratorIdContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterListContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParameterListContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParametersContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$FormalParametersContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$IfStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$IfStatementLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LiteralContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LiteralContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationStatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$LocalVariableDeclarationStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodBodyContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodBodyContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MethodDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MultDivExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$MultDivExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ParExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ParExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimaryContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimaryContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimitiveTypeContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PrimitiveTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PvStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$PvStatementLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelEqDiffExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelEqDiffExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$RelExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ReturnStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$ReturnStatementLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StatementExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationStatementContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructDeclarationStatementContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVariableInitializerContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVariableInitializerContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVaribleDeclarationContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$StructVaribleDeclarationContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$SumMinusExpressionLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$SumMinusExpressionLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$TypeTypeContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$TypeTypeContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorIdContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorIdContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorsContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableDeclaratorsContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableInitializerContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$VariableInitializerContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$WhileStatementLabelContext.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser$WhileStatementLabelContext.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusVisitor.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CMinusVisitor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ItemWhile.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/enums/ItemIfElse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/enums/ItemWhile.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/enums/ItemIfElse.java" afterPath="$PROJECT_DIR$/src/ItemIfElse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/Main.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusBaseListener.java" afterPath="$PROJECT_DIR$/gen/CMinusBaseListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusBaseVisitor.java" afterPath="$PROJECT_DIR$/gen/CMinusBaseVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusListener.java" afterPath="$PROJECT_DIR$/gen/CMinusListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusParser.java" afterPath="$PROJECT_DIR$/gen/CMinusParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/CMinusVisitor.java" afterPath="$PROJECT_DIR$/gen/CMinusVisitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gramatica/CMinus.g4" afterPath="$PROJECT_DIR$/gramatica/CMinus.g4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arquivos/teste_3ac.c" afterPath="$PROJECT_DIR$/arquivos/teste_3ac.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CustomListener.java" afterPath="$PROJECT_DIR$/src/CustomListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="TP1_AnaliseSintatica.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,74 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomListener.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomListener.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemWhile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/enums/ItemWhile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemIfElse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/enums/ItemIfElse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-              <folding>
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#715#716#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="teste_3ac.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arquivos/teste_3ac.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="54" column="2" selection-start-line="54" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemTabelaSimbolo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ItemTabelaSimbolo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CMinus.g4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gramatica/CMinus.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="120" column="51" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
+            <state relative-caret-position="96">
+              <caret line="214" column="84" selection-start-line="214" selection-start-column="84" selection-end-line="214" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -246,10 +121,10 @@
         <option value="$PROJECT_DIR$/src/enums/ItemIf.java" />
         <option value="$PROJECT_DIR$/gramatica/CMinus.g4" />
         <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/util/Stack.java" />
-        <option value="$PROJECT_DIR$/src/enums/ItemIfElse.java" />
-        <option value="$PROJECT_DIR$/arquivos/teste_3ac.c" />
-        <option value="$PROJECT_DIR$/src/CustomListener.java" />
         <option value="$PROJECT_DIR$/src/enums/ItemWhile.java" />
+        <option value="$PROJECT_DIR$/src/enums/ItemIfElse.java" />
+        <option value="$PROJECT_DIR$/src/CustomListener.java" />
+        <option value="$PROJECT_DIR$/arquivos/teste_3ac.c" />
       </list>
     </option>
   </component>
@@ -327,24 +202,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3_AnaliseSemantica" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP3_AnaliseSemantica" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enums" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -889,12 +746,12 @@
       <workItem from="1488753813493" duration="31431000" />
       <workItem from="1488835341965" duration="1592000" />
       <workItem from="1488904510789" duration="603000" />
-      <workItem from="1488957475263" duration="33225000" />
+      <workItem from="1488957475263" duration="35638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167711000" />
+    <option name="totallyTimeSpent" value="170124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="742" extended-state="6" />
@@ -918,7 +775,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28641573" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3846154" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70579267" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053833604" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -961,7 +818,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
-          <line>265</line>
+          <line>277</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
@@ -973,7 +830,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
-          <line>140</line>
+          <line>141</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
@@ -1385,45 +1242,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arquivos/teste_3ac.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="54" column="2" selection-start-line="54" selection-start-column="0" selection-end-line="73" selection-end-column="3" />
+        <state relative-caret-position="2340">
+          <caret line="148" column="1" selection-start-line="130" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/enums/ItemIfElse.java">
+    <entry file="file://$PROJECT_DIR$/src/ItemIfElse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
+        <state relative-caret-position="235">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ItemWhile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/enums/ItemWhile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="214" column="84" selection-start-line="214" selection-start-column="84" selection-end-line="214" selection-end-column="84" />
           <folding />
         </state>
       </provider>

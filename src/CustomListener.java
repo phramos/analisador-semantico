@@ -1,4 +1,3 @@
-import enums.ItemIfElse;
 import enums.LiteralType;
 import enums.OperatorType;
 import helper.ThreeCodeAddresHelper;
@@ -24,13 +23,15 @@ public class CustomListener extends CMinusBaseListener{
     private String escopoAtual;
 
     private Integer labelCount = 0;
-    private Stack<ItemIfElse> labels;
+    private Stack<ItemIfElse> ifs;
+    private Stack<ItemWhile> whiles;
 
     public CustomListener(CMinusParser parser) {
         this.parser = parser;
         tabelaSimbolos = new ArrayList<ItemTabelaSimbolo>();
         escopos = new Stack<String>();
-        labels = new Stack<ItemIfElse>();
+        ifs = new Stack<ItemIfElse>();
+        whiles = new Stack<ItemWhile>();
         //TODO: implementar verficacao de escopo global
         escopos.push("global");
         escopoAtual = "global";
@@ -181,13 +182,13 @@ public class CustomListener extends CMinusBaseListener{
         }
 
         ItemIfElse itemIfElse = new ItemIfElse(labelIf, labelElse, observeElse);
-        labels.push(itemIfElse);
+        ifs.push(itemIfElse);
         labelCount++;
     }
 
     @Override
     public void enterElseStatement(CMinusParser.ElseStatementContext ctx) {
-        ItemIfElse itemIfElse = labels.peek();
+        ItemIfElse itemIfElse = ifs.peek();
         if (itemIfElse.getObserveElse()) {
             if (SHOW_3AC)  System.out.println(itemIfElse.getLabelIf());
         }
@@ -195,7 +196,7 @@ public class CustomListener extends CMinusBaseListener{
 
     @Override
     public void exitIfStatementLabel(CMinusParser.IfStatementLabelContext ctx) {
-        ItemIfElse itemIfElse = labels.pop();
+        ItemIfElse itemIfElse = ifs.pop();
         if (!itemIfElse.getObserveElse()) {
             if (SHOW_3AC) System.out.println(itemIfElse.getLabelIf());
         }
@@ -204,12 +205,23 @@ public class CustomListener extends CMinusBaseListener{
 
     @Override
     public void enterWhileStatementLabel(CMinusParser.WhileStatementLabelContext ctx) {
-        super.enterWhileStatementLabel(ctx);
+        String labelBack = "L"+labelCount+":";
+        labelCount++;
+        String labelAfter = "L"+labelCount+":";
+
+        ItemWhile itemWhile = new ItemWhile(labelBack, labelAfter);
+        whiles.push(itemWhile);
+        if (SHOW_3AC) System.out.println(itemWhile.getLabelBack());
+        if (SHOW_3AC) System.out.println("ifZ " + ctx.parExpression().getText() + " goto " + itemWhile.getLabelAfter());
+        labelCount++;
+
     }
 
     @Override
     public void exitWhileStatementLabel(CMinusParser.WhileStatementLabelContext ctx) {
-        super.exitWhileStatementLabel(ctx);
+        ItemWhile itemWhile = whiles.pop();
+        if (SHOW_3AC) System.out.println("goto " +  itemWhile.getLabelBack());
+        if (SHOW_3AC) System.out.println(itemWhile.getLabelAfter());
     }
 
     private ItemTabelaSimbolo buscarNaTabelaDeSimbolos(String identificador) {

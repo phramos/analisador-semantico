@@ -73,3 +73,77 @@ void teste3acexpressao3() {
     c = a+b;
 }*/
 
+/*void teste3acwhile1(){
+    int a;
+    int b;
+    int c;
+    a = 1;
+    b = 10;
+    while (a>b) {
+        c = c + a *2;
+        a = a+1;
+    }
+    b = 0;
+}*/
+
+/*void teste3acwhile2(){
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+    a = 1;
+    b = 10;
+    c = 1;
+    d = a + b * 2;;
+    e = 0;
+    while (a>b) {
+        e = e + a *2;
+        a = a+1;
+
+        while (c >d) {
+            c= c*2;
+        }
+        d = a + b;
+    }
+    b = 0;
+}*/
+
+/*void teste3acifwhile() {
+    int a;
+    int b;
+    a = 1;
+    b = 10;
+
+    if (a > b) {
+
+        while (a < b) {
+            b = b - 1;
+        }
+
+        a = a*2;
+    }
+
+    a = 0;
+    b = 0;
+}*/
+
+/*
+void teste3acwhileif() {
+    int a;
+    int b;
+    a = 1;
+    b = 10;
+
+    while (a > b) {
+
+        if (a < b) {
+            b = b - 1;
+        }
+
+        a = a*2;
+    }
+
+    a = 0;
+    b = 0;
+}*/
