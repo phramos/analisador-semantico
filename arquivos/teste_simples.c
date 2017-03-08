@@ -43,12 +43,11 @@ void erroatribuicao3(){
     a = a + b;
 }*/
 
-void erroexpressao2() {
+/*void erroexpressao2() {
     int a;
     int b;
-    int erroexpressao2;
     a = a + 1.0 + b;
-}
+}*/
 
 /*void erroescopo1a(){
     int a;
@@ -58,3 +57,10 @@ void erroescopo1b(){
     int b;
     b = a;
 }*/
+
+void errochar1() {
+    int a;
+    char b;
+
+    b = 6.0 + b;
+}

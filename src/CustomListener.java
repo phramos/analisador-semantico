@@ -147,69 +147,6 @@ public class CustomListener extends CMinusBaseListener{
         return null;
     }
 
-    //Acusa erro em compatibilidade de 2 identificadores. Ex. int = float
-    private void verificarCompatibilidade(CMinusParser.ExpressionContext expressionACtx,
-                                          CMinusParser.ExpressionContext expressionBCtx) {
-        ItemTabelaSimbolo itemTsA = null;
-        ItemTabelaSimbolo itemTsB = null;
-
-        String expressionAType = null;
-        String expressionBType = null;
-
-        LiteralType literalTypeA = LiteralType.valueOf(vocabulary.getSymbolicName(expressionACtx.getStart().getType()));
-        LiteralType literalTypeB = LiteralType.valueOf(vocabulary.getSymbolicName(expressionBCtx.getStart().getType()));
-//        LiteralType literalTypeB = LiteralType.valueOf(vocabulary.getSymbolicName(expressionBCtx.getStart().getType()));
-
-        //TODO: Tentar mdularizar isso
-        //Verifica se expressionACtx eh um identifier
-        if (literalTypeA == LiteralType.Identifier) {
-            ItemTabelaSimbolo itemTbA = buscarNaTabelaDeSimbolos(expressionACtx.getText());
-            //ExpressioA eh um identificador e nao esta na tabela de simbolos
-            if (itemTbA == null) {
-                System.out.println("ERRO: Identificador "
-                        +expressionACtx.getText()
-                        + " não declarado em "
-                        + getTextPosition(expressionACtx.getStart()));
-
-            } else {
-                expressionAType = itemTbA.getTipo();
-            }
-
-        } else {
-            //Caso a expressionA seja um literal
-            expressionAType = literalTypeA.type();
-        }
-
-        //Verifica se expressionBCtx eh um identifier
-        if (literalTypeB == LiteralType.Identifier) {
-            ItemTabelaSimbolo itemTbB = buscarNaTabelaDeSimbolos(expressionBCtx.getStart().getText());
-            //ExpressioB eh um identificador e nao esta na tabela de simbolos
-            if (itemTbB == null) {
-                System.out.println("ERRO: Identificador "
-                        + expressionBCtx.getText()
-                        + " não declarado em "
-                        + getTextPosition(expressionBCtx.getStart()));
-
-            } else {
-                expressionBType = itemTbB.getTipo();
-            }
-
-        }  else {
-            //Caso a expressionA seja um literal
-            expressionBType = literalTypeB.type();
-        }
-
-        //TODO: verificar se essa expressao esta correta
-        if (expressionAType!= null && expressionBType!= null && !expressionAType.equals(expressionBType)) {
-            System.out.println("ERRO: Tipo encontrado em " + expressionBCtx.getText()
-                    + " não compativel com " +expressionACtx.getText()
-                    +". Esperado " + expressionAType
-                    + " mas foi encontrado " + expressionBType
-                    + " em " + getTextPosition(expressionBCtx.getStart()));
-        }
-
-    }
-
   //Acusa erro em compatibilidade de 2 identificadores. Ex. int = float
     private void verificarCompatibilidade(Token tokenA,
                                           Token tokenB) {
@@ -265,11 +202,26 @@ public class CustomListener extends CMinusBaseListener{
 
         //TODO: verificar se essa expressao esta correta
         if (expressionAType!= null && expressionBType!= null && !expressionAType.equals(expressionBType)) {
-            System.out.println("ERRO: Tipo encontrado em " + tokenB.getText()
-                    + " não compativel com " +tokenA.getText()
-                    +". Esperado " + expressionAType
-                    + " mas foi encontrado " + expressionBType
-                    + " em " + getTextPosition(tokenB));
+
+            //Testa casting de algum tipo com char
+            if ( ( expressionAType.equals(LiteralType.CharacterLiteral.type())
+                    && !expressionBType.equals(LiteralType.CharacterLiteral.type()) )
+                    || ( expressionBType.equals(LiteralType.CharacterLiteral.type())
+                    && !expressionAType.equals(LiteralType.CharacterLiteral.type()) ) ) {
+
+                System.out.println("ERRO: Conversão entre tipos de "
+                        + tokenA.getText() + " e " + tokenB.getText()
+                        +". Esperado " + expressionAType
+                        + " mas foi encontrado " + expressionBType
+                        + " em " + getTextPosition(tokenB));
+            } else {
+                System.out.println("ERRO: Tipo encontrado em " + tokenB.getText()
+                        + " não compativel com " +tokenA.getText()
+                        +". Esperado " + expressionAType
+                        + " mas foi encontrado " + expressionBType
+                        + " em " + getTextPosition(tokenB));
+            }
+
         }
 
     }
