@@ -411,18 +411,6 @@ public class CMinusBaseListener implements CMinusListener {
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
 	@Override public void enterRelEqDiffExpressionLabel(CMinusParser.RelEqDiffExpressionLabelContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -430,6 +418,18 @@ public class CMinusBaseListener implements CMinusListener {
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitRelEqDiffExpressionLabel(CMinusParser.RelEqDiffExpressionLabelContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void enterSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

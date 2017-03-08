@@ -353,18 +353,6 @@ public interface CMinusListener extends ParseTreeListener {
 	 */
 	void exitRelExpressionLabel(CMinusParser.RelExpressionLabelContext ctx);
 	/**
-	 * Enter a parse tree produced by the {@code sumMinusExpressionLabel}
-	 * labeled alternative in {@link CMinusParser#expression}.
-	 * @param ctx the parse tree
-	 */
-	void enterSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx);
-	/**
-	 * Exit a parse tree produced by the {@code sumMinusExpressionLabel}
-	 * labeled alternative in {@link CMinusParser#expression}.
-	 * @param ctx the parse tree
-	 */
-	void exitSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx);
-	/**
 	 * Enter a parse tree produced by the {@code relEqDiffExpressionLabel}
 	 * labeled alternative in {@link CMinusParser#expression}.
 	 * @param ctx the parse tree
@@ -376,6 +364,18 @@ public interface CMinusListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitRelEqDiffExpressionLabel(CMinusParser.RelEqDiffExpressionLabelContext ctx);
+	/**
+	 * Enter a parse tree produced by the {@code SumMinusExpressionLabel}
+	 * labeled alternative in {@link CMinusParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void enterSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx);
+	/**
+	 * Exit a parse tree produced by the {@code SumMinusExpressionLabel}
+	 * labeled alternative in {@link CMinusParser#expression}.
+	 * @param ctx the parse tree
+	 */
+	void exitSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx);
 	/**
 	 * Enter a parse tree produced by the {@code attrExpressionLabel}
 	 * labeled alternative in {@link CMinusParser#expression}.

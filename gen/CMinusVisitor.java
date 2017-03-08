@@ -216,19 +216,19 @@ public interface CMinusVisitor<T> extends ParseTreeVisitor<T> {
 	 */
 	T visitRelExpressionLabel(CMinusParser.RelExpressionLabelContext ctx);
 	/**
-	 * Visit a parse tree produced by the {@code sumMinusExpressionLabel}
-	 * labeled alternative in {@link CMinusParser#expression}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx);
-	/**
 	 * Visit a parse tree produced by the {@code relEqDiffExpressionLabel}
 	 * labeled alternative in {@link CMinusParser#expression}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitRelEqDiffExpressionLabel(CMinusParser.RelEqDiffExpressionLabelContext ctx);
+	/**
+	 * Visit a parse tree produced by the {@code SumMinusExpressionLabel}
+	 * labeled alternative in {@link CMinusParser#expression}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitSumMinusExpressionLabel(CMinusParser.SumMinusExpressionLabelContext ctx);
 	/**
 	 * Visit a parse tree produced by the {@code attrExpressionLabel}
 	 * labeled alternative in {@link CMinusParser#expression}.

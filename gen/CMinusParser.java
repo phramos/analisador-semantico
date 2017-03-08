@@ -1837,28 +1837,6 @@ public class CMinusParser extends Parser {
 			else return visitor.visitChildren(this);
 		}
 	}
-	public static class SumMinusExpressionLabelContext extends ExpressionContext {
-		public List<ExpressionContext> expression() {
-			return getRuleContexts(ExpressionContext.class);
-		}
-		public ExpressionContext expression(int i) {
-			return getRuleContext(ExpressionContext.class,i);
-		}
-		public SumMinusExpressionLabelContext(ExpressionContext ctx) { copyFrom(ctx); }
-		@Override
-		public void enterRule(ParseTreeListener listener) {
-			if ( listener instanceof CMinusListener ) ((CMinusListener)listener).enterSumMinusExpressionLabel(this);
-		}
-		@Override
-		public void exitRule(ParseTreeListener listener) {
-			if ( listener instanceof CMinusListener ) ((CMinusListener)listener).exitSumMinusExpressionLabel(this);
-		}
-		@Override
-		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
-			if ( visitor instanceof CMinusVisitor ) return ((CMinusVisitor<? extends T>)visitor).visitSumMinusExpressionLabel(this);
-			else return visitor.visitChildren(this);
-		}
-	}
 	public static class RelEqDiffExpressionLabelContext extends ExpressionContext {
 		public List<ExpressionContext> expression() {
 			return getRuleContexts(ExpressionContext.class);
@@ -1878,6 +1856,28 @@ public class CMinusParser extends Parser {
 		@Override
 		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
 			if ( visitor instanceof CMinusVisitor ) return ((CMinusVisitor<? extends T>)visitor).visitRelEqDiffExpressionLabel(this);
+			else return visitor.visitChildren(this);
+		}
+	}
+	public static class SumMinusExpressionLabelContext extends ExpressionContext {
+		public List<ExpressionContext> expression() {
+			return getRuleContexts(ExpressionContext.class);
+		}
+		public ExpressionContext expression(int i) {
+			return getRuleContext(ExpressionContext.class,i);
+		}
+		public SumMinusExpressionLabelContext(ExpressionContext ctx) { copyFrom(ctx); }
+		@Override
+		public void enterRule(ParseTreeListener listener) {
+			if ( listener instanceof CMinusListener ) ((CMinusListener)listener).enterSumMinusExpressionLabel(this);
+		}
+		@Override
+		public void exitRule(ParseTreeListener listener) {
+			if ( listener instanceof CMinusListener ) ((CMinusListener)listener).exitSumMinusExpressionLabel(this);
+		}
+		@Override
+		public <T> T accept(ParseTreeVisitor<? extends T> visitor) {
+			if ( visitor instanceof CMinusVisitor ) return ((CMinusVisitor<? extends T>)visitor).visitSumMinusExpressionLabel(this);
 			else return visitor.visitChildren(this);
 		}
 	}

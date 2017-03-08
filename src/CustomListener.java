@@ -1,4 +1,5 @@
 import enums.LiteralType;
+import enums.OperatorType;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.Vocabulary;
 
@@ -83,6 +84,17 @@ public class CustomListener extends CMinusBaseListener{
                     escopoAtual);
             tabelaSimbolos.add(item);
             if (DEBUG) System.out.println("DEBUG: Item adicionado:" + item);
+
+            if (ctx.variableDeclarators().variableDeclarator().variableInitializer() != null ) {
+                Token tokenA = ctx.variableDeclarators().variableDeclarator().variableDeclaratorId().getStart();
+                Token tokenB = ctx.variableDeclarators().variableDeclarator().variableInitializer().getStart();
+                if (DEBUG) System.out.println("DEBUG: Possui inicializador com valor "
+                        + ctx.variableDeclarators().variableDeclarator().variableInitializer().getText());
+                verificarCompatibilidade(tokenA, tokenB, OperatorType.Attribuition);
+
+            }
+
+
         } else {
             //ERRO:
             String msg = "ERRO: "
@@ -113,8 +125,8 @@ public class CustomListener extends CMinusBaseListener{
 //        CMinusParser.ExpressionContext expressionRightContext = ctx.expression().get(1);
         Token tokenA = ctx.expression(0).getStop();
         Token tokenB = ctx.expression(1).getStart();
-        verificarCompatibilidade(tokenA, tokenB);
-//        verificarCompatibilidade(expressionLeftContext, expressionRightContext);
+//        verificarCompatibilidade(tokenA, tokenB);
+        verificarCompatibilidade(tokenA, tokenB, OperatorType.Attribuition);
     }
 
     @Override
@@ -124,7 +136,8 @@ public class CustomListener extends CMinusBaseListener{
 //        CMinusParser.ExpressionContext expressionRightContext = ctx.expression().get(1);
         Token tokenA = ctx.expression(0).getStop();
         Token tokenB = ctx.expression(1).getStart();
-        verificarCompatibilidade(tokenA, tokenB);
+//        verificarCompatibilidade(tokenA, tokenB);
+        verificarCompatibilidade(tokenA, tokenB, OperatorType.SumDiff);
     }
 
     @Override
@@ -132,7 +145,8 @@ public class CustomListener extends CMinusBaseListener{
         if (DEBUG) System.out.println("DEBUG: Expressao de */ encontrada: " + ctx.getText());
         Token tokenA = ctx.expression(0).getStop();
         Token tokenB = ctx.expression(1).getStart();
-        verificarCompatibilidade(tokenA, tokenB);
+//        verificarCompatibilidade(tokenA, tokenB);
+        verificarCompatibilidade(tokenA, tokenB, OperatorType.MultDiv);
     }
 
     private ItemTabelaSimbolo buscarNaTabelaDeSimbolos(String identificador) {
@@ -147,10 +161,11 @@ public class CustomListener extends CMinusBaseListener{
         return null;
     }
 
-  //Acusa erro em compatibilidade de 2 identificadores. Ex. int = float
+    //Acusa erro em compatibilidade de 2 identificadores. Ex. int = float
     private void verificarCompatibilidade(Token tokenA,
-                                          Token tokenB) {
-        if (DEBUG) System.out.println("DEBUG: Tokens testados:" + tokenA.getText()+ " & " + tokenB.getText());
+                                          Token tokenB,
+                                          OperatorType operatorType) {
+        if (DEBUG) System.out.println("DEBUG: Tokens testados:" + tokenA.getText() + " & " + tokenB.getText());
         ItemTabelaSimbolo itemTsA = null;
         ItemTabelaSimbolo itemTsB = null;
 
@@ -168,7 +183,7 @@ public class CustomListener extends CMinusBaseListener{
             //ExpressioA eh um identificador e nao esta na tabela de simbolos
             if (itemTbA == null) {
                 System.out.println("ERRO: Identificador "
-                        +tokenA.getText()
+                        + tokenA.getText()
                         + " não declarado em "
                         + getTextPosition(tokenB));
 
@@ -195,43 +210,56 @@ public class CustomListener extends CMinusBaseListener{
                 expressionBType = itemTbB.getTipo();
             }
 
-        }  else {
+        } else {
             //Caso a expressionA seja um literal
             expressionBType = literalTypeB.type();
         }
 
-        //TODO: verificar se essa expressao esta correta
-        if (expressionAType!= null && expressionBType!= null && !expressionAType.equals(expressionBType)) {
+        //TODO: separar verificacao de identificador e verificacao de compatibilidade
+        //Ja foi verificado se as expressoes eram identificadores e estavam presentes nas tabelas de simbolos
+        //Os codigos daqui para baixo verificam imcompatibilidade de tipos
+        if (expressionAType != null && expressionBType != null ) {
+            //Verifcacao de erros caso algum dos tokens seja um char e a operacao eh diferente de atribuicao
+            if (expressionAType.equals(LiteralType.CharacterLiteral.type())
+                    || expressionBType.equals(LiteralType.CharacterLiteral.type())) {
 
-            //Testa casting de algum tipo com char
-            if ( ( expressionAType.equals(LiteralType.CharacterLiteral.type())
-                    && !expressionBType.equals(LiteralType.CharacterLiteral.type()) )
-                    || ( expressionBType.equals(LiteralType.CharacterLiteral.type())
-                    && !expressionAType.equals(LiteralType.CharacterLiteral.type()) ) ) {
+                if (!operatorType.equals(OperatorType.Attribuition)) {
+                    System.out.println("ERRO: Operação inválida sobre o tipo char."
+                            + "Tipo char permite apenas a opeção de atribuição(=), "
+                            + "mas foi econtrada uma operação ("
+                            + operatorType.type()
+                            + ") em " + getTextPosition(tokenB));
+                }
 
-                System.out.println("ERRO: Conversão entre tipos de "
-                        + tokenA.getText() + " e " + tokenB.getText()
-                        +". Esperado " + expressionAType
-                        + " mas foi encontrado " + expressionBType
-                        + " em " + getTextPosition(tokenB));
-            } else {
-                System.out.println("ERRO: Tipo encontrado em " + tokenB.getText()
-                        + " não compativel com " +tokenA.getText()
-                        +". Esperado " + expressionAType
-                        + " mas foi encontrado " + expressionBType
-                        + " em " + getTextPosition(tokenB));
             }
 
-        }
+            if (!expressionAType.equals(expressionBType)) {
 
+                //Testa casting de algum tipo com char
+                if ((expressionAType.equals(LiteralType.CharacterLiteral.type())
+                        && !expressionBType.equals(LiteralType.CharacterLiteral.type()))
+                        || (expressionBType.equals(LiteralType.CharacterLiteral.type())
+                        && !expressionAType.equals(LiteralType.CharacterLiteral.type()))) {
+
+                    System.out.println("ERRO: Conversão entre tipos de "
+                            + tokenA.getText() + " e " + tokenB.getText()
+                            + ". Esperado " + expressionAType
+                            + " mas foi encontrado " + expressionBType
+                            + " em " + getTextPosition(tokenB));
+                } else {
+                    System.out.println("ERRO: Tipo encontrado em " + tokenB.getText()
+                            + " não compativel com " + tokenA.getText()
+                            + ". Esperado " + expressionAType
+                            + " mas foi encontrado " + expressionBType
+                            + " em " + getTextPosition(tokenB));
+                }
+
+            }
+        }
     }
 
     private String getTextPosition(Token token) {
         return "L" + token.getLine()
                 + "C" + token.getCharPositionInLine();
     }
-//
-//    private void verificarCompatibilidade(String identA, LiteralType IdentB) {
-//
-//    }
 }

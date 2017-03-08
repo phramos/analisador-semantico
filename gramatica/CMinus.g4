@@ -145,7 +145,7 @@ statementExpression
 expression
     :   primary #primExpressionLabel//Alternativa necessaria para regras com recursividade a esquerda
     |   expression ('*'|'/') expression #multDivExpressionLabel
-    |   expression ('+'|'-') expression #sumDiffExpressionLabel
+    |   expression ('+'|'-') expression #SumMinusExpressionLabel
     |   expression ('<=' | '>=' | '>' | '<') expression #relExpressionLabel
     |   expression ('==' | '!=') expression #relEqDiffExpressionLabel
     |   <assoc=right> expression '=' expression #attrExpressionLabel
@@ -156,16 +156,6 @@ primary
     |   literal
     |   Identifier
     ;
-
-////argumentos de uma funcao. Obs: Nao utilizados na linguagem CMinus
-//arguments
-//    :   '(' expressionList? ')'
-//    ;
-
-////Testes para exibicao de erros
-//localVariableDeclarationStatementErro
-//    :    localVariableDeclaration ~(';') {System.out.println("Faltou ponto e virgula");}
-//    ;
 
 // LEXER
 //Palavras reservadas da linguagem

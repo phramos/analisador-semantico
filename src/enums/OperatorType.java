@@ -6,7 +6,7 @@ package enums;
 public enum OperatorType {
     SumDiff("+ | -"),
     MultDiv("+ | /"),
-    Attribuitin("="),
+    Attribuition("="),
     Relational("== | != | < | <= | > | >=");
 
     OperatorType(String type) {
