@@ -1,5 +1,6 @@
 import enums.LiteralType;
 import enums.OperatorType;
+import helper.ThreeCodeAddresHelper;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.Vocabulary;
 
@@ -128,6 +129,9 @@ public class CustomListener extends CMinusBaseListener{
         Token tokenA = ctx.expression(0).getStop();
         Token tokenB = ctx.expression(1).getStart();
 //        verificarCompatibilidade(tokenA, tokenB);
+        String[] tacExpression = ThreeCodeAddresHelper.process(ctx.expression(1).getText(), tokenA.getText());
+        ThreeCodeAddresHelper.print3ac(tacExpression);
+        ThreeCodeAddresHelper.printQuadrupla(tacExpression);
         verificarCompatibilidade(tokenA, tokenB, OperatorType.Attribuition);
     }
 

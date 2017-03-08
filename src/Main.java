@@ -64,7 +64,9 @@ public class Main {
 
 //        ThreeCodeAddresHelper.process("2*66.0+b-c*5/12.0+belu");
 //        ThreeCodeAddresHelper.process("66.0*b-c*5/12+belu");
-        ThreeCodeAddresHelper.process("15");
+
+
+//        ThreeCodeAddresHelper.process("15");
 
     }
 
