@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b06741f0-dbcd-4048-b2bc-fae5ce195346" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ItemWhile.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/enums/ItemIfElse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/enums/ItemWhile.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/enums/ItemIfElse.java" afterPath="$PROJECT_DIR$/src/ItemIfElse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/erroatribuicao1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/erroatribuicao3.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/errochar1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/errodeclaracaoatribuicao1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/errodeclaracaoatribuicao2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/errodeclaracaoduplicada2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/errodeclaracaoduplicada3.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/erroescopo1a1b.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/erroexpressao1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/erroexpressao2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/erro/errooperadorchar1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/sucesso/teste3acif1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/sucesso/teste3acif2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/sucesso/teste3acif3.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/sucesso/teste3acifwhile.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/sucesso/teste3acwhile1.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/sucesso/teste3acwhile2.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arquivos/sucesso/teste3acwhileif.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/CustomListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/Main.class" afterPath="$PROJECT_DIR$/out/production/TP3_AnaliseSemantica/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arquivos/teste_3ac.c" afterPath="$PROJECT_DIR$/arquivos/teste_3ac.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arquivos/teste_erros_semanticos.c" afterPath="$PROJECT_DIR$/arquivos/teste_erros_semanticos.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CustomListener.java" afterPath="$PROJECT_DIR$/src/CustomListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
     </list>
     <ignored path="TP1_AnaliseSintatica.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +61,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="errooperadorchar1.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arquivos/erro/errooperadorchar1.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="214" column="84" selection-start-line="214" selection-start-column="84" selection-end-line="214" selection-end-column="84" />
+            <state relative-caret-position="180">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -60,6 +97,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,32 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main2.java" />
-        <option value="$PROJECT_DIR$/src/helper/listener/Token.java" />
-        <option value="$PROJECT_DIR$/src/helper/listener/TokenErro.java" />
-        <option value="$PROJECT_DIR$/src/helper/listener/TokenIdentificador2.java" />
-        <option value="$PROJECT_DIR$/src/helper/listener/TokenIdentificador.java" />
-        <option value="$PROJECT_DIR$/src/helper/TokenErro.java" />
-        <option value="$PROJECT_DIR$/src/helper/Token.java" />
-        <option value="$PROJECT_DIR$/src/helper/TokenIdentificador.java" />
-        <option value="$PROJECT_DIR$/gramatica/AnalisadorLexico.g4" />
-        <option value="$PROJECT_DIR$/arquivos/teste_erros.c" />
-        <option value="$PROJECT_DIR$/arquivos/ArquivoTeste2.java" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_colchete.c" />
-        <option value="$PROJECT_DIR$/src/helper/LexerOnSteroids.java" />
-        <option value="$PROJECT_DIR$/gen/CMinusBaseListener.java" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_ponto_e_virgula.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_expressao_if.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_colchete_while.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_parentese_if.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_identificador_sem_tipo.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador2.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_identificador_identificador.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador5.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_argumentos.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_argumentos1.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_struct1.c" />
-        <option value="$PROJECT_DIR$/arquivos/teste_errado_struct2.c" />
         <option value="$PROJECT_DIR$/gramatica/CMinus.bkp2.g4" />
         <option value="$PROJECT_DIR$/gen/CMinusParser.java" />
         <option value="$PROJECT_DIR$/gramatica/CMinus.bkp.g4" />
@@ -116,15 +128,41 @@
         <option value="$PROJECT_DIR$/src/enums/OperatorType.java" />
         <option value="$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java" />
         <option value="$PROJECT_DIR$/arquivos/teste_simples.c" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/arquivos/teste_erros_semanticos.c" />
         <option value="$PROJECT_DIR$/src/enums/ItemIf.java" />
         <option value="$PROJECT_DIR$/gramatica/CMinus.g4" />
         <option value="/usr/lib/jvm/java-8-oracle/src.zip!/java/util/Stack.java" />
         <option value="$PROJECT_DIR$/src/enums/ItemWhile.java" />
         <option value="$PROJECT_DIR$/src/enums/ItemIfElse.java" />
-        <option value="$PROJECT_DIR$/src/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/ItemQuadruple.java" />
         <option value="$PROJECT_DIR$/arquivos/teste_3ac.c" />
+        <option value="$PROJECT_DIR$/arquivos/a.c" />
+        <option value="$PROJECT_DIR$/arquivos/teste_erros_semanticos.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada2.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada3.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada4.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada5.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada6.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada7.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada8.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada9.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada10.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada11.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada12.c" />
+        <option value="$PROJECT_DIR$/arquivos/errodeclaracaoduplicada13.c" />
+        <option value="$PROJECT_DIR$/arquivos/t1.c" />
+        <option value="$PROJECT_DIR$/arquivos/t2.c" />
+        <option value="$PROJECT_DIR$/arquivos/t3.c" />
+        <option value="$PROJECT_DIR$/arquivos/t4.c" />
+        <option value="$PROJECT_DIR$/arquivos/t5.c" />
+        <option value="$PROJECT_DIR$/arquivos/t6.c" />
+        <option value="$PROJECT_DIR$/arquivos/t7.c" />
+        <option value="$PROJECT_DIR$/arquivos/t8.c" />
+        <option value="$PROJECT_DIR$/arquivos/t9.c" />
+        <option value="$PROJECT_DIR$/arquivos/t10.c" />
+        <option value="$PROJECT_DIR$/arquivos/erro/sucesso.html" />
+        <option value="$PROJECT_DIR$/arquivos/sucesso/testecexpressao1.c" />
+        <option value="$PROJECT_DIR$/src/CustomListener.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -219,6 +257,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arquivos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sucesso" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TP3_AnaliseSemantica" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="arquivos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="erro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -236,12 +310,18 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_3ac.c&#10;c&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;ma&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;t&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_simples.c&#10;main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;C&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Cmi&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Listen&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/helper/listener/ThrowingErrorListener.java&#10;orre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_correto.c&#10;corre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_correto.c&#10;Mai&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;g4&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;Base&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gen/CMinusBaseListener.java&#10;arg&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;teste_errado_colchete_main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;argumentos&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;g&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;teste&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;if&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_expressao_if.c&#10;errad&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado.c&#10;lexe&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Main&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/Main.java&#10;Ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;tokenIde&#9;PSI&#9;JAVA://helper.TokenIdentificador&#10;Token&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/TokenErro.java&#10;Lexer&#9;FILE&#9;jar:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/Lexer.class&#10;ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Ster&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;A&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Liste&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/listener/ThrowingErrorListener.java&#10;ex&#9;PSI&#9;JAVA://AnalisadorLexico&#10;al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/arquivos/alguma" />
+    <property name="SearchEverywhereHistoryKey" value="Cus&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/CustomListener.java&#10;main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;3ac&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_3ac.c&#10;c&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;ma&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/Main.java&#10;t&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_simples.c&#10;C&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Cmi&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/gramatica/CMinus.g4&#10;Listen&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/src/helper/listener/ThrowingErrorListener.java&#10;orre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP3/TP3_AnaliseSemantica/arquivos/teste_correto.c&#10;corre&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_correto.c&#10;Mai&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/Main.java&#10;g4&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;Base&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gen/CMinusBaseListener.java&#10;arg&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;teste_errado_colchete_main&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;argumentos&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_argumentos1.c&#10;g&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/gramatica/CMinus.g4&#10;teste&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_colchete_main.c&#10;if&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado_expressao_if.c&#10;errad&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/arquivos/teste_errado.c&#10;lexe&#9;FILE&#9;file:///home/fauno/Downloads/Compiladores/TP2/TP2_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Main&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/Main.java&#10;Ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;tokenIde&#9;PSI&#9;JAVA://helper.TokenIdentificador&#10;Token&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/TokenErro.java&#10;Lexer&#9;FILE&#9;jar:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/Lexer.class&#10;ana&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Ster&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/LexerOnSteroids.java&#10;Al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;A&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/gramatica/AnalisadorLexico.g4&#10;Liste&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/src/helper/listener/ThrowingErrorListener.java&#10;ex&#9;PSI&#9;JAVA://AnalisadorLexico&#10;al&#9;FILE&#9;file:///home/fauno/Projects/Compiladores/Antlr/TP1_AnaliseSintatica/arquivos/alguma" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/arquivos/sucesso" />
+      <recent name="$PROJECT_DIR$/arquivos/erro" />
+      <recent name="$PROJECT_DIR$/arquivos/asda" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -251,8 +331,8 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/arquivos" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/gramatica" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -746,12 +826,12 @@
       <workItem from="1488753813493" duration="31431000" />
       <workItem from="1488835341965" duration="1592000" />
       <workItem from="1488904510789" duration="603000" />
-      <workItem from="1488957475263" duration="35638000" />
+      <workItem from="1488957475263" duration="42141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170124000" />
+    <option name="totallyTimeSpent" value="176627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1374" height="742" extended-state="6" />
@@ -775,11 +855,11 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3846154" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35679215" sideWeight="0.62371886" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70579267" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.053833604" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25151515" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3939394" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -818,7 +898,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
-          <line>277</line>
+          <line>319</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
@@ -830,7 +910,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CustomListener.java</url>
-          <line>141</line>
+          <line>145</line>
           <properties />
           <option name="timeStamp" value="100" />
         </line-breakpoint>
@@ -852,243 +932,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/helper">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>helper</OriginalElement>
-          <nodes>
-            <node x="" y="">helper.TokenErro</node>
-            <node x="" y="">helper.Simbolo</node>
-            <node x="" y="">helper.Token</node>
-            <node x="" y="">helper.listener</node>
-            <node x="" y="">helper.LexerOnSteroids</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="14.0" y="492.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/antlr-4.5.3-complete.jar!/org/antlr/v4/runtime/Lexer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/helper.listener.ThrowingErrorListener">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>helper.listener.ThrowingErrorListener</OriginalElement>
-          <nodes>
-            <node x="30.0" y="379.0">helper.listener.ThrowingErrorListener</node>
-            <node x="31.5" y="706.0">helper.TokenErro</node>
-            <node x="0.0" y="831.0">helper.Simbolo</node>
-            <node x="0.0" y="479.0">helper.Token</node>
-            <node x="0.0" y="0.0">org.antlr.v4.runtime.ANTLRErrorListener</node>
-            <node x="168.0" y="177.0">org.antlr.v4.runtime.BaseErrorListener</node>
-            <node x="432.0" y="479.0">helper.LexerOnSteroids</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="helper.TokenErro" target="helper.Token">
-              <point x="0.0" y="-40.0" />
-              <point x="0.0" y="88.5" />
-            </edge>
-            <edge source="helper.listener.ThrowingErrorListener" target="org.antlr.v4.runtime.BaseErrorListener">
-              <point x="0.0" y="-27.5" />
-              <point x="0.0" y="76.0" />
-            </edge>
-            <edge source="org.antlr.v4.runtime.BaseErrorListener" target="org.antlr.v4.runtime.ANTLRErrorListener">
-              <point x="0.0" y="-76.0" />
-              <point x="0.0" y="63.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="236.0" y="679.0" />
-          <SelectedNodes>
-            <node>helper.Token</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/listener/TokenIdentificador2.java" />
-    <entry file="file://$PROJECT_DIR$/src/helper/Simbolo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/Token.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/helper.LexerOnSteroids">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>helper.LexerOnSteroids</OriginalElement>
-          <nodes>
-            <node x="465.0" y="665.0">helper.TokenErro</node>
-            <node x="234.85714285714278" y="218.0">helper.Simbolo</node>
-            <node x="194.75" y="438.0">helper.Token</node>
-            <node x="0.0" y="665.0">helper.TokenIdentificador</node>
-            <node x="-258.5714285714285" y="254.04761904761892">helper.LexerOnSteroids</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="helper.TokenIdentificador" target="helper.Token">
-              <point x="0.0" y="-52.5" />
-              <point x="222.5" y="640.0" />
-              <point x="289.5" y="640.0" />
-              <point x="-94.75" y="88.5" />
-            </edge>
-            <edge source="helper.TokenErro" target="helper.Token">
-              <point x="0.0" y="-52.5" />
-              <point x="546.0" y="640.0" />
-              <point x="479.0" y="640.0" />
-              <point x="94.75" y="88.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9" x="-222.0" y="-125.0" />
-          <SelectedNodes>
-            <node>helper.Simbolo</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/AnalisadorLexico.java" />
-    <entry file="file://$PROJECT_DIR$/arquivos/ArquivoTeste2.java" />
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_erros.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/alguma" />
-    <entry file="file://$PROJECT_DIR$/src/helper/TokenErro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_ponto_e_virgula.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_tipo_sem_identificador2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_identificador_identificador.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_struct1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_struct2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_parentese_if.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gramatica/CMinus.bkp2.g4" />
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gramatica/CMinus.bkp.g4" />
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_argumentos2.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/CMinus.tokens">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="38" column="7" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_colchete_main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_errado_argumentos1.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helper/listener/CustomListener.java" />
     <entry file="file://$PROJECT_DIR$/gen/CMinusBaseListener.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1184,34 +1027,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="117" column="29" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_erros_semanticos.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/enums/LiteralType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="61">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1236,14 +1055,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="120" column="51" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arquivos/teste_3ac.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="148" column="1" selection-start-line="130" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1285,10 +1096,267 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ItemQuadruple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/ThreeCodeAddresHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="124" column="13" selection-start-line="104" selection-start-column="12" selection-end-line="124" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/errodeclaracaoduplicada14.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/teste_erros_semanticos.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="92" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/teste_3ac.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/sucesso.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acexpressao1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acexpressao2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acexpressao3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acif1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acif2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acif3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acifwhile.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acwhile1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acwhile2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/sucesso/teste3acwhileif.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CustomListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="214" column="84" selection-start-line="214" selection-start-column="84" selection-end-line="214" selection-end-column="84" />
+        <state relative-caret-position="180">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/erroatribuicao1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/erroatribuicao2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/erroatribuicao3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/errochar1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/errodeclaracaoatribuicao1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/errodeclaracaoatribuicao2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/errodeclaracaoduplicada1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/errodeclaracaoduplicada2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/errodeclaracaoduplicada3.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/erroescopo1a1b.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/erroexpressao1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/erroexpressao2.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arquivos/erro/errooperadorchar1.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>

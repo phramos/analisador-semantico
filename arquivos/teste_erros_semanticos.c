@@ -92,4 +92,3 @@ void errochar1() {
     char a = b;
 }*/
 
-void

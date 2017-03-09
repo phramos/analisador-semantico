@@ -17,7 +17,34 @@ public class Main {
     public static void main (String... args) throws IOException {
 
 //        String fileName = "arquivos/teste_erros_semanticos.c";
-        String fileName = "arquivos/teste_3ac.c";
+//        String fileName = "arquivos/teste_3ac.c";
+
+        //TESTES ERROS
+//        String fileName = "arquivos/erro/erroatribuicao1.c";
+//        String fileName = "arquivos/erro/erroatribuicao2.c";
+//        String fileName = "arquivos/erro/erroatribuicao3.c";
+//        String fileName = "arquivos/erro/errochar1.c";
+//        String fileName = "arquivos/erro/errodeclaracaoatribuicao1.c";
+//        String fileName = "arquivos/erro/errodeclaracaoatribuicao2.c";
+//        String fileName = "arquivos/erro/errodeclaracaoduplicada1.c";
+//        String fileName = "arquivos/erro/errodeclaracaoduplicada2.c";
+//        String fileName = "arquivos/erro/errodeclaracaoduplicada3.c";
+//        String fileName = "arquivos/erro/erroescopo1a1b.c";
+//        String fileName = "arquivos/erro/erroexpressao1.c";
+//        String fileName = "arquivos/erro/erroexpressao2.c";
+        String fileName = "arquivos/erro/errooperadorchar1.c";
+
+        //TESTES DE SUCESSO
+//        String fileName = "arquivos/sucesso/teste3acexpressao1.c";
+//        String fileName = "arquivos/sucesso/teste3acexpressao2.c";
+//        String fileName = "arquivos/sucesso/teste3acexpressao3.c";
+//        String fileName = "arquivos/sucesso/teste3acif1.c";
+//        String fileName = "arquivos/sucesso/teste3acif2.c";
+//        String fileName = "arquivos/sucesso/teste3acif3.c";
+//        String fileName = "arquivos/sucesso/teste3acifwhile.c";
+//        String fileName = "arquivos/sucesso/teste3acwhile1.c";
+//        String fileName = "arquivos/sucesso/teste3acwhile2.c";
+//        String fileName = "arquivos/sucesso/teste3acwhileif.c";
 
         File file = new File(fileName);
 

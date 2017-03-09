@@ -86,7 +86,7 @@ void teste3acexpressao3() {
     b = 0;
 }*/
 
-/*void teste3acwhile2(){
+void teste3acwhile2(){
     int a;
     int b;
     int c;
@@ -107,7 +107,7 @@ void teste3acexpressao3() {
         d = a + b;
     }
     b = 0;
-}*/
+}
 
 /*void teste3acifwhile() {
     int a;

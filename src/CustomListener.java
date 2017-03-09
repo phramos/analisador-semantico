@@ -13,9 +13,12 @@ import java.util.Stack;
 public class CustomListener extends CMinusBaseListener{
 
     private final Boolean DEBUG = false;
-    private final Boolean SHOW_3AC = true;
+    private final Boolean SHOW_3AC = false;
+    private final Boolean SHOW_QUADRUPLE = false;
+    private final Boolean SHOW_ST = true;
     private CMinusParser parser;
     private ArrayList<ItemTabelaSimbolo> tabelaSimbolos;
+    private ArrayList<ItemQuadruple> quadruples;
 
     private Stack<String> escopos;
     //TODO: Melhorar o controle de escopo... escopo de if e escopo de else
@@ -29,6 +32,7 @@ public class CustomListener extends CMinusBaseListener{
     public CustomListener(CMinusParser parser) {
         this.parser = parser;
         tabelaSimbolos = new ArrayList<ItemTabelaSimbolo>();
+        quadruples = new ArrayList<ItemQuadruple>();
         escopos = new Stack<String>();
         ifs = new Stack<ItemIfElse>();
         whiles = new Stack<ItemWhile>();
@@ -140,6 +144,36 @@ public class CustomListener extends CMinusBaseListener{
         //TODO: colocar 3DC para declaracao de variavel ja inicializada
         String[] tacExpression = ThreeCodeAddresHelper.process(ctx.expression(1).getText(), tokenA.getText());
         if (SHOW_3AC) ThreeCodeAddresHelper.print3ac(tacExpression);
+        ItemQuadruple quadruple;
+        for (String tac: tacExpression
+                ) {
+            if (DEBUG) System.out.println(tac);
+            tac = tac.replace("+", " + ");
+            tac = tac.replace("-", " - ");
+            tac = tac.replace("*", " * ");
+            tac = tac.replace("/", " / ");
+            tac = tac.replace("=", " = ");
+            String[] values = tac.split(" ");
+
+            //Varifica se eh uma expressao de atribuicao simples. Ex.: a = 15;
+            if (values.length == 3) {
+                //Atribuicao do tipo a = 5;
+                quadruple = new ItemQuadruple(values[1], values[2], null, values[0]);
+                if (DEBUG) System.out.println("<"+ values[1]
+                        + ", " + values[2]
+                        + ", " + null
+                        + ", " +values[0]
+                        + ">");
+            } else {
+                quadruple = new ItemQuadruple(values[3], values[2], values[4], values[0]);
+                if (DEBUG) System.out.println("<"+ values[3]
+                        + ", "+ values[2]
+                        + ", "+ values[4]
+                        + ", " + values[0]
+                        + ">");
+            }
+            quadruples.add(quadruple);
+        }
 
         //TODO: ver como exibir a quadrupla
 //        ThreeCodeAddresHelper.printQuadrupla(tacExpression);
@@ -182,6 +216,7 @@ public class CustomListener extends CMinusBaseListener{
         }
 
         ItemIfElse itemIfElse = new ItemIfElse(labelIf, labelElse, observeElse);
+        quadruples.add(new ItemQuadruple("ifZ", ctx.parExpression().getText(), null, "goto "+labelElse));
         ifs.push(itemIfElse);
         labelCount++;
     }
@@ -190,6 +225,7 @@ public class CustomListener extends CMinusBaseListener{
     public void enterElseStatement(CMinusParser.ElseStatementContext ctx) {
         ItemIfElse itemIfElse = ifs.peek();
         if (itemIfElse.getObserveElse()) {
+            quadruples.add(new ItemQuadruple("Label", null, null, itemIfElse.getLabelIf()));
             if (SHOW_3AC)  System.out.println(itemIfElse.getLabelIf());
         }
     }
@@ -198,6 +234,7 @@ public class CustomListener extends CMinusBaseListener{
     public void exitIfStatementLabel(CMinusParser.IfStatementLabelContext ctx) {
         ItemIfElse itemIfElse = ifs.pop();
         if (!itemIfElse.getObserveElse()) {
+            quadruples.add(new ItemQuadruple("Label", null, null, itemIfElse.getLabelIf()));
             if (SHOW_3AC) System.out.println(itemIfElse.getLabelIf());
         }
         if (DEBUG) System.out.println("DEBUG: Fim if " + itemIfElse.getLabelIf());
@@ -213,6 +250,8 @@ public class CustomListener extends CMinusBaseListener{
         whiles.push(itemWhile);
         if (SHOW_3AC) System.out.println(itemWhile.getLabelBack());
         if (SHOW_3AC) System.out.println("ifZ " + ctx.parExpression().getText() + " goto " + itemWhile.getLabelAfter());
+        quadruples.add(new ItemQuadruple("Label", null, null, itemWhile.getLabelBack()));
+        quadruples.add(new ItemQuadruple("ifZ", ctx.parExpression().getText(), null, "goto "+itemWhile.getLabelAfter()));
         labelCount++;
 
     }
@@ -222,6 +261,9 @@ public class CustomListener extends CMinusBaseListener{
         ItemWhile itemWhile = whiles.pop();
         if (SHOW_3AC) System.out.println("goto " +  itemWhile.getLabelBack());
         if (SHOW_3AC) System.out.println(itemWhile.getLabelAfter());
+
+        quadruples.add(new ItemQuadruple("ifZ", ctx.parExpression().getText(), null, "goto "+itemWhile.getLabelBack()));
+        quadruples.add(new ItemQuadruple("Label", null, null, itemWhile.getLabelAfter()));
     }
 
     private ItemTabelaSimbolo buscarNaTabelaDeSimbolos(String identificador) {
@@ -336,5 +378,28 @@ public class CustomListener extends CMinusBaseListener{
     private String getTextPosition(Token token) {
         return "L" + token.getLine()
                 + "C" + token.getCharPositionInLine();
+    }
+
+    @Override
+    public void exitCompilationUnit(CMinusParser.CompilationUnitContext ctx) {
+        if (SHOW_QUADRUPLE) {
+            System.out.println("----------------------QUADRUPLAS----------------------");
+            System.out.println("<op, arg1, arg2, result>");
+            for (ItemQuadruple quadruple :
+                    quadruples) {
+                System.out.println(quadruple);
+
+            }
+        }
+
+        if (SHOW_ST) {
+            System.out.println("\n\n----------------------TABELA DE SIMBOLOS----------------------");
+            System.out.println("<tipo, identificador, escopo>");
+            for (ItemTabelaSimbolo item :
+                    tabelaSimbolos) {
+                System.out.println(item);
+
+            }
+        }
     }
 }
